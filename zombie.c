@@ -9,7 +9,7 @@ int main (void)
        if (pid == 0){
                printf("I am child with pid=%d. My parent pid=%d\n",getpid(),getppid());
                sleep (6);
-               printf("I am Zombie-process of Kanarskiy. My parent pid=%d\n",getppid());
+               printf("I am zombie-process of Kanarskiy. My parent pid=%d\n",getppid());
                _exit(0);
         }
        else{
