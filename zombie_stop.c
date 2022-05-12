@@ -17,7 +17,7 @@ int main (void)
         if (pid == 0){
 	printf("I am child with pid=%d. My parent pid=%d\n", getpid(), getppid());
 	sleep (6);
-	printf("Child of Ishenko is finished. My parent pid=%d\n", getppid());
+	printf("Child of Kanarskiy is finished. My parent pid=%d\n", getppid());
 	_exit(0);
         }
        else{
