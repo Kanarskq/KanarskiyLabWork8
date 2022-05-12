@@ -11,7 +11,7 @@ int main (void)
         if (pid == 0){
                 printf("\n The child of Kanarskiy print next info:\n");
                 execve ("/bin/cat", cat_args, environ);
-                printf("execve failed\n");
+                printf("\nexecve failed");
                 return EXIT_FAILURE;
 		}
 		
