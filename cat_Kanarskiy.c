@@ -5,6 +5,7 @@
 extern char ** environ;
 int main (void)
 {
+
         char* cat_args []={   "cat","/etc/hosts",NULL };
         pid_t pid=fork();
         if (pid == 0){
